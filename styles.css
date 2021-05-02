@@ -1,0 +1,56 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Cards</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h1 class="card-container-heading">MY PROJECTS</h1>
+    <!-- CARD CONTAINER HERE -->
+    <div class="card-container">
+      <!--   FIRST CARD -->
+      <div class="card">
+        <!--     CARD IMAGE -->
+        <img src="https://i.postimg.cc/Kz7wt2ML/contact-form.png" alt="Contact Form" class="card-img">
+        <!--     CARD DETAILS -->
+        <div class="card-details">
+          <h2 class="card-heading">Contact Form</h2>
+          <h3 class="card-subtitle">HTML/CSS</h3>
+          <p class="card-description">Glassmorphic styled form using Formspree and Glassmorphism.com</p>
+          <!--       BUTTON GROUP -->
+          <div class="card-buttons">
+            <a href="https://youthful-payne-760abd.netlify.app/" target="_blank" class="button">Netlify</a>
+            <a href="https://github.com/Atheelah/contact-form" target="_blank" class="button">Github</a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://i.postimg.cc/858gh4n8/Timeline.png" alt="Timeline" class="card-img">
+        <div class="card-details">
+          <h2 class="card-heading">Glassmorphic Timeline</h2>
+          <h3 class="card-subtitle">HTML/CSS</h3>
+          <p class="card-description">Glassmorphic timeline styled using Glassmorphism.com</p>
+          <div class="card-buttons">
+            <a href="https://ecstatic-tesla-b28fe6.netlify.app" target="_blank" class="button">Netlify</a>
+            <a href="https://github.com/Atheelah/glassmorphic-timeline" target="_blank" class="button">Github</a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://i.postimg.cc/HsWD4V3L/testimonial-slider.png" alt="Testimonial Slider" class="card-img">
+        <div class="card-details">
+          <h2 class="card-heading">Testimonial Slider</h2>
+          <h3 class="card-subtitle">HTML/CSS</h3>
+          <p class="card-description">Testimonial slider style using Owl Carousel and Glassmorphism.com</p>
+          <div class="card-buttons">
+            <a href="https://serene-lovelace-69bc5f.netlify.app" target="_blank" class="button">Netlify</a>
+            <a href="https://github.com/Atheelah/testimonial_slider" target="_blank" class="button">Github</a>
+          </div>
+        </div>
+      </div>
+    </div>   
+</body>
+</html>
